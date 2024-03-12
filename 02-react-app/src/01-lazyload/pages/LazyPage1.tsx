@@ -1,7 +1,5 @@
-interface Props {
-  aaa?: string;
-}
-
-export const LazyPage1 = ({ aaa }: Props) => {
+const LazyPage1 = () => {
   return <>LazyPage1</>;
 };
+
+export default LazyPage1;
