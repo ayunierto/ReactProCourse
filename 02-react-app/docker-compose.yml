@@ -8,8 +8,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app/
-      - /app/node_modules
 
-    container_name: "Component-Compound"
+    container_name: "Compound-Component-Pattern"
     ports:
       - 3000:3000
